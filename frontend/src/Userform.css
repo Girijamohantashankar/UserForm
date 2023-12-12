@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background-color: aqua;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+label{
+    font-size: 25px;
+    padding-right: 10px;
+}
+input,select{
+  padding: 10px;
+    
+}
+.input_field,.phone{
+    display: flex;
+}.input_field input{
+    margin-left: 50px;
+    width: 250px;
+}.input_field .firstname {
+margin-left: 58px;
+margin-bottom: 10px;
+}
+.input_field .email{
+    margin-left: 108px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}.phone_number{
+    margin-left: 95px;
+}
+button{
+    background-color: rgb(30, 178, 236);
+    padding: 10px;
+    margin-top: 10px;
+    margin: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+}
+button:hover{
+    background-color: blue;
+}
